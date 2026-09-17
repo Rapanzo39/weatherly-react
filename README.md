@@ -1,16 +1,62 @@
-# React + Vite
+# 🌤️ Weatherly - React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Weatherly is a modern and responsive weather application built with React.js. It allows users to search for any city and view real-time weather information using the OpenWeather API.
 
-Currently, two official plugins are available:
+The application features a clean dark-themed interface, dynamic weather images, weather icons, temperature information, humidity, and feels-like temperature.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 Live Demo: Add your Vercel/Netlify link here
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Preview
+
+Add your project screenshot here.
+
+Example:
+
+![Weatherly Preview](./preview.png)
+
+---
+
+## ✨ Features
+
+- 🌍 Search weather by city name
+- 🌡️ Display current temperature
+- 💧 Display humidity
+- 🌡️ Display feels-like temperature
+- ☁️ Dynamic weather icons
+- 🌧️ Dynamic weather images based on weather conditions
+- ⚡ Real-time weather data using OpenWeather API
+- 🎨 Modern dark-themed UI
+- 📱 Responsive design
+- ❌ Error handling for invalid locations
+- 🔐 Environment variables for API configuration
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+
+### UI Library
+
+- Material UI (MUI)
+
+### API
+
+- OpenWeather API
+
+### Build Tool
+
+- Vite
+
+
