@@ -18,7 +18,7 @@ Add your project screenshot here.
 
 Example:
 
-![Weatherly Preview](./preview.png)
+![Search for Weather](./assets/Search.png)
 
 ---
 
