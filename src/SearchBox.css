@@ -1,0 +1,88 @@
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 44px;
+}
+
+.search-box form {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* MUI TextField */
+
+.search-box .MuiTextField-root {
+    width: 383px;
+}
+
+.search-box .MuiOutlinedInput-root {
+    height: 59px;
+    border-radius: 13px;
+    background: #191c23;
+    color: white;
+}
+
+.search-box .MuiOutlinedInput-input {
+    color: white;
+    font-size: 16px;
+}
+
+.search-box .MuiInputLabel-root {
+    color: #aab1c3;
+}
+
+.search-box .MuiInputLabel-root.Mui-focused {
+    color: #7695ff;
+}
+
+.search-box .MuiOutlinedInput-notchedOutline {
+    border-color: #2d323d;
+}
+
+.search-box .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #444b59;
+}
+
+.search-box .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #6d8cff;
+}
+
+/* Search button */
+
+.search-box button {
+    height: 59px;
+    min-width: 130px;
+
+    border-radius: 13px;
+
+    background: #6c8cff;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    box-shadow: 0 8px 25px rgba(108, 140, 255, 0.25);
+
+    transition: 0.2s;
+}
+
+.search-box button:hover {
+    background: #7897ff;
+    transform: translateY(-1px);
+}
+
+@media (max-width: 600px) {
+
+    .search-box form {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .search-box .MuiTextField-root {
+        width: 100%;
+    }
+
+    .search-box button {
+        width: 100%;
+    }
+}
