@@ -8,7 +8,7 @@ The application features a clean dark-themed interface, dynamic weather images, 
 
 ## 🚀 Live Demo
 
-🔗 Live Demo: Add your Vercel/Netlify link here
+🔗(https://weatherly-kohl-delta.vercel.app/)
 
 ---
 
