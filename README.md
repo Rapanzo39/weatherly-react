@@ -14,11 +14,14 @@ The application features a clean dark-themed interface, dynamic weather images, 
 
 ## 📸 Preview
 
-Add your project screenshot here.
 
-Example:
+![Search for Weather](./src/assets/Search.png)
 
-![Search for Weather](./assets/Search.png)
+![Rainy Season](./src/assets/Rainy.png)
+
+![Search for Weather](./src/assets/cloudy.png)
+
+![Search for Weather](./src/assets/sunny.png)
 
 ---
 
